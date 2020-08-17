@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/esbb48/react-native-check-notification-permission.git", :tag => "1.0.0" }
-  s.source_files  = "ios/RNCheckNotificationPermission/**/*.{h,m}"
+  s.source_files  = "ios/RNCheckNotificationPermission/*.{h,m}"
   s.requires_arc = true
 
 
